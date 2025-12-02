@@ -18,3 +18,4 @@ yarn-error.log*
 .sass-cache/
 .cache/
 .next/          
+pnpm-lock.yaml
