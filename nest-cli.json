@@ -1,0 +1,60 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/*",
+  "projects": {
+    "users": {
+      "type": "application",
+      "root": "apps/users",
+      "entryFile": "main",
+      "sourceRoot": "apps/users/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/users/tsconfig.json"
+      }
+    },
+    "core": {
+      "type": "application",
+      "root": "apps/core",
+      "entryFile": "main",
+      "sourceRoot": "apps/core/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/core/tsconfig.json"
+      }
+    },
+    "common_used": {
+      "type": "application",
+      "root": "apps/common_used",
+      "entryFile": "main",
+      "sourceRoot": "apps/common_used/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/common_used/tsconfig.json"
+      }
+    },
+    "accounts": {
+      "type": "application",
+      "root": "apps/accounts",
+      "entryFile": "main",
+      "sourceRoot": "apps/accounts/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/accounts/tsconfig.json"
+      }
+    },
+    "profiles": {
+      "type": "application",
+      "root": "apps/profiles",
+      "entryFile": "main",
+      "sourceRoot": "apps/profiles/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/profiles/tsconfig.json"
+      }
+    },
+    "his": {
+      "type": "application",
+      "root": "apps/partner",
+      "entryFile": "main",
+      "sourceRoot": "apps/partner/his/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/partner/his/tsconfig.json"
+      }
+    }
+  }
+}
